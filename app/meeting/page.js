@@ -12,7 +12,7 @@ import LiveRecordingCard from "../components/meeting/LiveRecordingCard";
 import TranscriptDisplay from "../components/meeting/TranscriptDisplay";
 import AnalysisControl from "../components/meeting/AnalysisControl";
 import DataTable from "../components/meeting/DataTable";
-import ChatbotCard from "../components/meeting/ChatbotCard";
+import ChatbotSection from "../components/meeting/ChatbotSection";
 import DBViewer from "../components/meeting/DBViewer";
 import SuggestChangesSection from "../components/meeting/SuggestChangesSection";
 
@@ -226,8 +226,8 @@ export default function MeetingPage() {
             />
             {/* <TranscriptDisplay transcript={transcript} /> */}
 
-            {/* Chatbot Component */}
-            <ChatbotCard />
+            {/* Chatbot Section with Tabs */}
+            <ChatbotSection />
           </div>
 
           {/* RIGHT SIDE - INDEPENDENTLY SCROLLABLE */}

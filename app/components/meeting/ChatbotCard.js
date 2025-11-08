@@ -75,14 +75,14 @@ export default function ChatbotCard() {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6 h-[500px] flex flex-col">
+    <div className="h-[500px] flex flex-col">
       {/* Header */}
       <div className="flex items-center space-x-3 mb-4 pb-4 border-b border-gray-200">
         <div className="w-10 h-10 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full flex items-center justify-center">
           <Bot className="w-6 h-6 text-white" />
         </div>
         <div>
-          <h2 className="text-xl font-bold text-gray-900">Legal Assistant</h2>
+          <h3 className="text-lg font-bold text-gray-900">Legal Assistant</h3>
           <p className="text-sm text-gray-500">
             Ask about compliance & legal matters
           </p>
@@ -171,12 +171,12 @@ export default function ChatbotCard() {
           onKeyPress={handleKeyPress}
           placeholder="Ask about legal or compliance matters..."
           disabled={isLoading}
-          className="flex-1 px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent disabled:bg-gray-100 disabled:cursor-not-allowed text-sm"
+          className="flex-1 px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent disabled:bg-gray-100 disabled:cursor-not-allowed text-sm text-gray-900 placeholder-gray-400"
         />
         <button
           onClick={handleSend}
           disabled={!input.trim() || isLoading}
-          className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-3 rounded-xl hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+          className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-3 rounded-xl hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
         >
           <Send className="w-5 h-5" />
         </button>
