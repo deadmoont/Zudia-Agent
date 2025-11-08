@@ -15,8 +15,6 @@
 
 Zudia+ is an AI-powered legal technology platform designed to analyze live meetings, provide real-time compliance insights, and automate legal document updates. It bridges the gap between verbal discussions and contractual obligations, ensuring that your legal documents are always in sync with your latest negotiations.
 
-![Zudia+ Screenshot](image_bbc55f.jpg)
-
 ---
 
 ## ✨ Core Features
@@ -74,14 +72,12 @@ graph LR
 
 ## 💻 Tech Stack
 
-| Component          | Technology                                |
-| ------------------ | ----------------------------------------- |
-| **Frontend**       | React, Tailwind CSS, Vite                 |
-| **Backend**        | Node.js (Express) / Python (Flask/Django) |
-| **Speech-to-Text** | AssemblyAI / Deepgram                     |
-| **NLP/Analysis**   | OpenAI GPT-4 / Gemini                     |
-| **Database**       | PostgreSQL / MongoDB / Firestore          |
-| **PDF Processing** | pdf-lib / PyMuPDF                         |
+| Component          | Technology          |
+| ------------------ | ------------------- | --- |
+| **Frontend**       | React, Tailwind CSS |
+| **Backend**        | Next.js / Python    |     |
+| **NLP/Analysis**   | Gemini              |
+| **PDF Processing** | pdf-lib / PyMuPDF   |
 
 ---
 
