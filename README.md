@@ -4,9 +4,6 @@
 
 **Transform Legal Meetings into Actionable Insights**
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
 </div>
 
 ---
@@ -73,9 +70,9 @@ graph LR
 ## 💻 Tech Stack
 
 | Component          | Technology          |
-| ------------------ | ------------------- | --- |
+| ------------------ | ------------------- |
 | **Frontend**       | React, Tailwind CSS |
-| **Backend**        | Next.js / Python    |     |
+| **Backend**        | Next.js / Python    |
 | **NLP/Analysis**   | Gemini              |
 | **PDF Processing** | pdf-lib / PyMuPDF   |
 
